@@ -22,9 +22,4 @@ public class PersonalController {
     public String adminHello(Authentication authentication){
         return "Hello, " + authentication.getName() + ". It is API for ADMIN";
     }
-
-    @GetMapping("/manager/hello")
-    public String managerHello(Authentication authentication){
-        return "Hello, " + authentication.getName() + ". It is API for MANAGER";
-    }
 }
