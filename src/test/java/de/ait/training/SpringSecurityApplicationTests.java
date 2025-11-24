@@ -1,4 +1,4 @@
-package de.ait.training.spring_security;
+package de.ait.training;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
